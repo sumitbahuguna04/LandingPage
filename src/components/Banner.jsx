@@ -2,12 +2,12 @@ import React from "react";
 
 function Banner() {
   return (
-    <section className="w-[100%]  relative text-white h-[100vh] bg-[url('/bg.jpg')] bg-cover bg-center">
+    <section className="w-[100%] relative text-white h-[100vh] bg-[url('/bg.jpg')] bg-cover bg-center">
       <div className="w-[100%] h-[100vh] absolute inset-0 bg-[rgba(0,0,0,0.4)]"></div>
       <header className="max-w-[1170px] mx-auto">
-        <div className="grid sm:grid-cols-2 grid-cols-[1fr_auto] p-[5px] items-center">
+        <div className="grid sm:grid-cols-2 grid-cols-[1fr_auto] p-[2px] items-center">
           <figure>
-            <img src="netflix.webp" alt="" className="w-[148px]" />
+            <img src="netflix.webp" alt="" className=" h-23 " />
           </figure>
           <div className="flex py-[10px] gap-5 justify-end pr-5">
             <div className="relative  ">
