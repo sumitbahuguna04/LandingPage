@@ -46,7 +46,7 @@ function Banner() {
 
       <div className="w-full flex flex-col relative gap-5 mt-20 sm:mt-36 px-3 ">
         <div className="">
-          <h1 className="text-4xl font-extrabold">
+          <h1 className="text-4xl sm:text-[60px] font-extrabold">
             Unlimited movies, Tv shows and more
           </h1>
         </div>
