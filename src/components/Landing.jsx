@@ -1,20 +1,23 @@
-import React from 'react'
+import React from "react";
 
 function Landing() {
   return (
-    <div className='max-w-full flex flex-col sm:flex-row bg-gray-100'>
-        <div className="">
-            <img src="phonescree.png" alt="" className=' p-3 sm:w-[900px]  lg:w-[900px] sm:h-[700px] ' />
+    <div className="w-full bg-black border-t-[5px] border-t-gray-600 ">
+      <div className="mt-10 sm:mt-20 mx-auto p-10 sm:px-[50px] flex flex-col  justify-between items-center sm:flex-row  gap-15 text-white">
+        
+        <div className="flex flex-col gap-4 ">
+          <h1 className="text-3xl font-extrabold">Enjoy on your TV</h1>
+          <p>
+            Watch on smart Tvs,PlayStation, Xbox, Chromecast, Apple TV, Blu-ray
+            players and more.
+          </p>
         </div>
-      <div className='grid   mb-4 sm:flex-col gap-5 py-10 px-5'> <div className='bg-gray-200 border-2 border-gray-300 p-2 rounded-xl'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus deleniti quae, ab dolorum dolore atque quod nulla. Ipsa adipisci earum laborum nostrum, fugit recusandae quidem enim voluptate, labore cupiditate ea, facere facilis sit.</div>
-       <div className='bg-gray-200 border-2 border-gray-300  p-2 rounded-xl'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus deleniti quae, ab dolorum dolore atque quod nulla. Ipsa adipisci earum laborum nostrum, fugit recusandae quidem enim voluptate, labore cupiditate ea, facere facilis sit.</div>
-       <div className='bg-gray-200 border-2 border-gray-300  p-2 rounded-xl'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus deleniti quae, ab dolorum dolore atque quod nulla. Ipsa adipisci earum laborum nostrum, fugit recusandae quidem enim voluptate, labore cupiditate ea, facere facilis sit.</div>
-       <div className='bg-gray-200 border-2 border-gray-300  p-2 rounded-xl'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus deleniti quae, ab dolorum dolore atque quod nulla. Ipsa adipisci earum laborum nostrum, fugit recusandae quidem enim voluptate, labore cupiditate ea, facere facilis sit.</div>
-      
- </div>
+        <div className="">
+          <img src="tv-bg.jpg" alt="" className="rounded-3xl" />
+        </div>
+      </div>
     </div>
-    
-  )
+  );
 }
 
-export default Landing
+export default Landing;
