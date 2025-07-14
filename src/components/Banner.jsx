@@ -7,7 +7,7 @@ function Banner() {
       <header className="max-w-[1170px] mx-auto">
         <div className="grid sm:grid-cols-2 grid-cols-[1fr_auto] p-[2px] items-center">
           <figure>
-            <img src="netflix.webp" alt="" className=" h-23 " />
+            <img src="netflix.webp" alt="" className=" h-23 md:h-24 lg:h-36  brightness-120" />
           </figure>
           <div className="flex py-[10px] gap-5 justify-end pr-5">
             <div className="relative  ">
@@ -51,16 +51,16 @@ function Banner() {
           </h1>
         </div>
         <div>
-          <p className="font-bold">Watch anywhere. Cancel anytime</p>
+          <p className="font-bold text-[20px]">Watch anywhere. Cancel anytime</p>
         </div>
         <div>
           Ready to watch? Enter your email to create or restart your membership.
         </div>
          <div className="relative max-w-[700px] mx-auto">
        <form action="" className="grid  sm:grid-cols-[70%_auto] grid-col-1 gap-3 sm:gap-1">
-         <input type="text" placeholder="Enter your gmail" className="bg-[rgba(25,24,24,0.9)] border-1 border-gray-500 sm:w-[330px] sm:h-[60px] rounded p-4 " />
+         <input type="text" placeholder="Enter your gmail" className="bg-[rgba(25,24,24,0.9)] text-[20px]  border-1 border-gray-500 sm:w-[330px] sm:h-[60px] rounded p-4 " />
        
-        <button className="bg-red-500 hover:bg-red-600 transition duration-400 font-bold  justify-center p-3  sm:p-3  sm:w-[170px] sm:h-[60px] flex items-center rounded">Get Started <img src="right-arrow.svg" className="h-8 pl-2 filter invert brightness-200"></img></button>
+        <button className="bg-[#e41717] hover:bg-[#e41717de] transition duration-400 font-bold text-[19px]  justify-center p-3  sm:p-3  sm:w-[170px] sm:h-[60px] flex items-center rounded">Get Started <img src="right-arrow.svg" className="h-8 pl-2 filter invert brightness-200"></img></button>
        </form>
       </div>
       </div>
