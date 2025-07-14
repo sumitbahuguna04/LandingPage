@@ -3,9 +3,9 @@ import React from "react";
 function Landing() {
   return (
     <div className="w-full bg-black border-t-[5px] border-t-gray-600 ">
-      <div className="mt-10 sm:mt-20 mx-auto p-10 sm:px-[50px] flex flex-col  justify-between items-center sm:flex-row  gap-15 text-white">
+      <div className="mt-10 sm:mt-20 mx-auto p-10  lg:px-[150px] flex flex-col  justify-between items-center sm:flex-row  gap-15 text-white">
         
-        <div className="flex flex-col gap-4 ">
+        <div className="flex flex-col gap-5 ">
           <h1 className="text-3xl font-extrabold">Enjoy on your TV</h1>
           <p>
             Watch on smart Tvs,PlayStation, Xbox, Chromecast, Apple TV, Blu-ray

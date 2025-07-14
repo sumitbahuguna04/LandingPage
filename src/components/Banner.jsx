@@ -44,9 +44,9 @@ function Banner() {
         </div>
       </header>
 
-      <div className="w-full flex flex-col relative gap-5 mt-10 px-3 ">
+      <div className="w-full flex flex-col relative gap-5 mt-20 sm:mt-36 px-3 ">
         <div className="">
-          <h1 className="text-3xl font-extrabold">
+          <h1 className="text-4xl font-extrabold">
             Unlimited movies, Tv shows and more
           </h1>
         </div>
@@ -57,10 +57,10 @@ function Banner() {
           Ready to watch? Enter your email to create or restart your membership.
         </div>
          <div className="relative max-w-[700px] mx-auto">
-       <form action="" className="grid  sm:grid-cols-[70%_auto] grid-col-1 gap-3 ">
-         <input type="text" placeholder="Enter your gmail" className="bg-gray-700 border-1 border-gray-600 rounded p-4 sm:h-12" />
+       <form action="" className="grid  sm:grid-cols-[70%_auto] grid-col-1 gap-3 sm:gap-1">
+         <input type="text" placeholder="Enter your gmail" className="bg-[rgba(25,24,24,0.9)] border-1 border-gray-500 sm:w-[330px] sm:h-[60px] rounded p-4 " />
        
-        <button className="bg-red-500  font-bold  justify-center p-3 sm:p-3 sm:h-12 sm:w-36 flex items-center rounded">Get Started <img src="right-arrow.svg" className="h-8 pl-2 filter invert brightness-200"></img></button>
+        <button className="bg-red-500 hover:bg-red-600 transition duration-400 font-bold  justify-center p-3  sm:p-3  sm:w-[170px] sm:h-[60px] flex items-center rounded">Get Started <img src="right-arrow.svg" className="h-8 pl-2 filter invert brightness-200"></img></button>
        </form>
       </div>
       </div>
